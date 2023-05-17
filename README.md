@@ -194,15 +194,7 @@ We will go back into the Azure portal and access the overview of VM2. The privat
 <img src="https://i.gyazo.com/cb84e8571a390ea32584468c595c8e8f.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
-
-<p>
-<img src="https://i.gyazo.com/cb84e8571a390ea32584468c595c8e8f.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Open Microsoft PowerShell and perpetually ping VM2. This is achieved by typing "ping -t 10.0.0.5.
+Open Microsoft PowerShell and perpetually ping VM2. This is achieved by typing ping -t 10.0.0.5.
 </p>
 <br />
 
@@ -247,26 +239,26 @@ Select “Inbound security rules” and click “Add”. We will select the ICMP
 <br />
 
 <p>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.gyazo.com/5f7eb4148e35ed1919f656bd734f7a83.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
-
-<p>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+When we go back to VM1, we can see the inbound security rule worked as “Request timed out” can be seen.
 </p>
 <br />
 
 <p>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.gyazo.com/0c2f6233076306b43c6ee2d4f36a01ce.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+As we observe in Wireshark, we can see “no response found” in the Wireshark traffic.
+</p>
+<br />
+
+<p>
+<img src="https://i.gyazo.com/93649c2cfa987106f3fbb027ab7c5236.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+We are now going to observe SSH (Secure Shell) traffic
 </p>
 <br />
 
